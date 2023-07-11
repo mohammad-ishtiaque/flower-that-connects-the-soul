@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* utilites */
+
+.text-primary{
+    color: #E55473;
+
+}
+
+.btn-primary {
+    color: #fff;
+    font-family: Lato;
+    border: 0;
+    border-radius: 8px;
+    background: #E55473;
+    display: inline-flex;
+    padding: 20px 43px;
+    margin-top: 10px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+/* header section */
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 140px 0px 140px;
+    background: rgba(229, 84, 115, 0.10);
+
+}
+
+.banner-content {
+    width: 500px;
+}
+
+.banner-title {
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.banner-pic {
+    width: 500px;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+
+/* featured section */
+
+
+.features-flower {
+    text-align: center;
+}
+
+.featured-head {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.feature-title {
+    margin-top: 100px;
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.featured-head p {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.flowers-in-featured-store {
+    display: flex;
+    padding: 0 100px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.flowers-in-featured-store img {
+    width: 200px;
+}
+
+.pink-flower,
+.red-flower,
+.yellow-flower {
+    text-align: center;
+    margin: 10px;
+}
+
+.flowers-in-featured-store p {
+    margin-top: 30px;
+}
+
+.flowers-in-featured-store a {
+    color: #272727;
+    font-size: 20px;
+}
+
+.inner-div-of-pink {
+    padding: 65px 60px 0 60px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+}
+
+.inner-div-of-red {
+    padding: 65px 50px 76px 60px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+
+}
+
+.inner-div-of-yellow {
+    padding: 41px 60px 0px 60px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+
+/* sale section*/
+
+.sale-section {
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 120px;
+}
+
+.sale-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sale-content {
+    max-width: 500px;
+    text-align: center;
+}
+
+.sale-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.sale-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
