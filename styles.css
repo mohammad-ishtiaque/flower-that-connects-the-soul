@@ -156,17 +156,41 @@
     text-align: center;
 }
 
-.sale-title {
+.sale-title, .insta-title {
     color: #272727;
     font-family: Lato;
     font-size: 36px;
     font-weight: 800;
 }
 
-.sale-description {
+.sale-description, .insta-description {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+
+/* insta section */
+
+.instagram-section{
+    margin-top: 120px;
+}
+
+.insta-content{
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.flower-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.flower-container img{
+    width: 200px;
+    padding: 20px;
 }
