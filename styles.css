@@ -139,6 +139,31 @@
 }
 
 
+/* service that we provide */
+
+
+.providing-services{
+    margin-top: 120px;
+}
+.service-container{
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 40px 30px;
+    margin: 0 165px;
+}
+
+.individual-services img{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
 /* sale section*/
 
 .sale-section {
@@ -168,7 +193,7 @@
 
 .sale-description,
 .insta-description,
-.deal-description, .footer-description, .copyright {
+.deal-description, .footer-description, .copyright, .service-title {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
